@@ -18,7 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `My current stack of languages/technologies is:
+  paragraphOne: `I'm a professional and passionate Software Developer focused on efficiency and constant learning.`,
+  paragraphTwo: `My current stack of languages/technologies is:
   HTML5 - CSS3 - JAVASCRIPT - SASS - WEBPACK - REACTJS - STYLED COMPONENTS - CSS MODULES - FIREBASE - NODEJS - EXPRESSJS - MONGODB - SQL - POSTGRESQL.`,
   paragraphThree: `I would love to set up an introduction call to discuss how I could help your business and make your goals happen.`,
   resume: `https://docs.google.com/document/d/1pKtMEvnzgCAJWzb8j-qsQF7Ihxi8DJt3ikreacT0WXY/edit?usp=sharing`, // if no resume, the button will not show up
