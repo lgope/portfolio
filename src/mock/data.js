@@ -63,6 +63,15 @@ export const projectsData = [
     url: 'https://lgope.github.io/robo-friends/',
     repo: 'https://github.com/lgope/robo-friends', // if no repo, the button will not show up
   },
+  {
+    id: uuidv1(),
+    img: 'laptopStore.png',
+    title: 'Laptop Store',
+    info: `This is a laptop store demo web. And it's my first nodejs web project. 🙂`,
+    info2: `html5, css3, Nodejs, Expressjs, File System`,
+    url: 'https://the-laptop-shop.herokuapp.com/',
+    repo: 'https://github.com/lgope/Laptop-Store', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
