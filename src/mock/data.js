@@ -54,6 +54,10 @@ export const projectsData = [
     url: 'http://smart-face-detect-brain.herokuapp.com/',
     repo: 'https://github.com/lgope/face-detection-brain', // if no repo, the button will not show up
   },
+];
+
+// MORE PROJECTS DATA
+export const moreProjectsData = [
   {
     id: uuidv1(),
     img: 'robo-friends.png',
@@ -71,6 +75,42 @@ export const projectsData = [
     info2: `html5, css3, Nodejs, Expressjs, File System`,
     url: 'https://the-laptop-shop.herokuapp.com/',
     repo: 'https://github.com/lgope/Laptop-Store', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'check-weather-home.png',
+    title: 'Check Weather',
+    info: `This is a rudimentary node app to check current weather conditions on a specified location. My motivation for making this app was to have a clean way to get my current city weather information. ☁☁`,
+    info2: `handlebarsjs, css3, Nodejs, Expressjs, Mapbox API, Darksky API`,
+    url: `https://lakshman-weather-app.herokuapp.com/`,
+    repo: 'https://github.com/lgope/check-weather', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'farmHome.png',
+    title: 'Node Farm',
+    info: `This is a mini project which is Node-Farm. Using node.js file system. 🗽👩‍🌾`,
+    info2: `html5, css3, Nodejs, Expressjs, File System`,
+    url: 'http://lakshman-farm.herokuapp.com/',
+    repo: 'https://github.com/lgope/node-farm', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'Gradient-Background-Generator-home.png',
+    title: 'Gradient Background Generator',
+    info: `This is an app that can generate manual or random linear background colors! 🗽❄`,
+    info2: `html5, css3, javascript-dom`,
+    url: 'https://lgope.github.io/Gradient-Background-Generator/',
+    repo: 'https://github.com/lgope/Gradient-Background-Generator', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'budgetyHome.png',
+    title: 'Budget App',
+    info: `Budgety the single page web application where users can keep track of their income and expenses. 💲`,
+    info2: `html5, css3, javascript-dom`,
+    url: 'https://lgope.github.io/Budget-App/',
+    repo: 'https://github.com/lgope/Budget-App', // if no repo, the button will not show up
   },
 ];
 
