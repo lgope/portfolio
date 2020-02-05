@@ -60,25 +60,7 @@ export const projectsData = [
 export const moreProjectsData = [
   {
     id: uuidv1(),
-    img: 'robo-friends.png',
-    title: 'Robo Friends',
-    info: `Robo Friends is a ReactJS web application that is a Card UI and has different robot information in card form and we can search dynamically through those cards by name of the robot. 🤖`,
-    info2: `React.js, Tachyons, RoboHash API`,
-    url: 'https://lgope.github.io/robo-friends/',
-    repo: 'https://github.com/lgope/robo-friends', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'laptopStore.jpg',
-    title: 'Laptop Store',
-    info: `This is a laptop store demo web. And it's my first nodejs web project. 🙂`,
-    info2: `html5, css3, Nodejs, Expressjs, File System`,
-    url: 'https://the-laptop-shop.herokuapp.com/',
-    repo: 'https://github.com/lgope/Laptop-Store', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'check-weather-home.jpg',
+    img: 'cwh.jpg',
     title: 'Check Weather',
     info: `This is a rudimentary node app to check current weather conditions on a specified location. My motivation for making this app was to have a clean way to get my current city weather information. ☁☁`,
     info2: `handlebarsjs, css3, Nodejs, Expressjs, Mapbox API, Darksky API`,
@@ -87,7 +69,26 @@ export const moreProjectsData = [
   },
   {
     id: uuidv1(),
-    img: 'farmHome.jpg',
+    img: 'laptopstore.jpg',
+    title: 'Laptop Store',
+    info: `This is a laptop store demo web. And it's my first nodejs web project. 🙂`,
+    info2: `html5, css3, Nodejs, Expressjs, File System`,
+    url: 'https://the-laptop-shop.herokuapp.com/',
+    repo: 'https://github.com/lgope/Laptop-Store', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'robo-friends.png',
+    title: 'Robo Friends',
+    info: `Robo Friends is a ReactJS web application that is a Card UI and has different robot information in card form and we can search dynamically through those cards by name of the robot. 🤖`,
+    info2: `React.js, Tachyons, RoboHash API`,
+    url: 'https://lgope.github.io/robo-friends/',
+    repo: 'https://github.com/lgope/robo-friends', // if no repo, the button will not show up
+  },
+
+  {
+    id: uuidv1(),
+    img: 'farmhome.jpg',
     title: 'Node Farm',
     info: `This is a mini project which is Node-Farm. Using node.js file system. 🗽👩‍🌾`,
     info2: `html5, css3, Nodejs, Expressjs, File System`,
@@ -96,7 +97,7 @@ export const moreProjectsData = [
   },
   {
     id: uuidv1(),
-    img: 'Gradient-Background-Generator-home.jpg',
+    img: 'gcggh.jpg',
     title: 'Gradient Background Generator',
     info: `This is an app that can generate manual or random linear background colors! 🗽❄`,
     info2: `html5, css3, javascript-dom`,
@@ -105,7 +106,7 @@ export const moreProjectsData = [
   },
   {
     id: uuidv1(),
-    img: 'budgetyHome.jpg',
+    img: 'budgetyhome.jpg',
     title: 'Budget App',
     info: `Budgety the single page web application where users can keep track of their income and expenses. 💲`,
     info2: `html5, css3, javascript-dom`,
@@ -114,9 +115,9 @@ export const moreProjectsData = [
   },
   {
     id: uuidv1(),
-    img: 'html-tags.jpg',
+    img: 'htmltags.jpg',
     title: 'Html Tags',
-    info: `HTML tags with code & output 🗽📃 This web page may gonna helpful for those who are learning HTML for the first time.`,
+    info: `HTML tags with code & output 🗽📃 This web page may gonna helpful for those who are learning HTML for the first time..`,
     info2: `html5, css3, bootstrap4`,
     url: 'https://lgope.github.io/html-tags/',
     repo: 'https://github.com/lgope/html-tags', // if no repo, the button will not show up

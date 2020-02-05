@@ -1,6 +1,6 @@
 # Portfolio Gatsby
 
-A minimal Gatsby portfolio 🙂 ![GitHub stars](https://img.shields.io/github/stars/lgope/portfolio) ![GitHub forks](https://img.shields.io/github/forks/lgope/portfolio)
+A minimal Gatsby portfolio 🙂 [![Netlify Status](https://api.netlify.com/api/v1/badges/f77b55ff-5990-4ad9-ac04-11a340efd865/deploy-status)](https://app.netlify.com/sites/lakshmandev/deploys) ![GitHub stars](https://img.shields.io/github/stars/lgope/portfolio) ![GitHub forks](https://img.shields.io/github/forks/lgope/portfolio)
 
 ## Features
 
@@ -23,4 +23,4 @@ A minimal Gatsby portfolio 🙂 ![GitHub stars](https://img.shields.io/github/st
 
 ## Deployment 📦
 
-Feel free to visit 👉 https://lgope.github.io/portfolio/
+Feel free to visit 👉 https://lakshmandev.netlify.com/

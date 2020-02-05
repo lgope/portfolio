@@ -1,13 +1,13 @@
 import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
-import Title from '../Title/Title';
+
 import ProjectImg from '../Image/ProjectImg';
 
-const Projects = () => {
-  const { projects } = useContext(PortfolioContext);
+const MoreProjects = () => {
+  const { moreProjects } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -22,13 +22,25 @@ const Projects = () => {
     }
   }, []);
 
+  function showMoreProjectList() {
+    const moreProject = document.getElementById('more-project');
+    const showBtn = document.getElementById('show-btn');
+
+    if (moreProject.style.display === 'none') {
+      moreProject.style.display = '';
+      showBtn.innerHTML = 'See less';
+    } else {
+      moreProject.style.display = 'none';
+      showBtn.innerHTML = 'See more';
+    }
+  }
+
   return (
     <section id="projects">
       <Container>
-        {/* Top 3 or 4 projects */}
-        <div className="project-wrapper">
-          <Title title="Projects" />
-          {projects.map(project => {
+        {/* more project list */}
+        <div className="project-wrapper" id="more-project" style={{ display: 'none' }}>
+          {moreProjects.map(project => {
             const { id, title, info, info2, url, repo, img } = project;
 
             return (
@@ -113,8 +125,26 @@ const Projects = () => {
           })}
         </div>
       </Container>
+      {/* See more option */}
+      <div>
+        <Row>
+          <Col>
+            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+              <p className="hero-cta">
+                <Button
+                  className="cta-btn cta-btn--hero more-less-btn"
+                  id="show-btn"
+                  onClick={showMoreProjectList}
+                >
+                  See more
+                </Button>
+              </p>
+            </Fade>
+          </Col>
+        </Row>
+      </div>
     </section>
   );
 };
 
-export default Projects;
+export default MoreProjects;
