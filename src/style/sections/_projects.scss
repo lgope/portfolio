@@ -1,8 +1,19 @@
 #projects {
   background-color: $white-color;
-  color: $dark-blue-text;
   margin-top: -10rem;
   padding-top: 15rem;
+
+  .project-section {
+    margin: 0px;
+    margin-bottom: 4.5rem;
+    font-size: $big-font-size;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    @include respond(phone) {
+      font-size: 2.8rem;
+    }
+  }
 
   .customSapn {
     position: relative;
@@ -25,8 +36,8 @@
       transform: rotate(-2deg);
       background: linear-gradient(
         135deg,
-        $primary-color 0%,
-        $secondary-color 100%
+        $secondary-color 0%,
+        $primary-color 100%
       ); // #7cdeac; // var(--primary);
     }
   }

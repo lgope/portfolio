@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import PortfolioContext from '../../context/context';
 import WordsFading from '../UI/wordsFading';
+import ScrollDown from '../UI/scrollDown';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -32,7 +33,7 @@ const Header = () => {
             <span className="text-color-main">{name || 'Lakshman'}</span>
             <br />
             <span className="sub-title">
-              A <WordsFading /> Full Stack Web Developer.
+              A <WordsFading /> Full Stack Developer.
             </span>
           </h1>
         </Fade>
@@ -43,6 +44,7 @@ const Header = () => {
             </a>
           </p>
         </Fade>
+        <ScrollDown />
       </Container>
     </section>
   );

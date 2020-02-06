@@ -19,6 +19,11 @@
       padding-bottom: 5rem;
     }
 
+    .stack {
+      font-style: italic;
+      font-family: system-ui;
+    }
+
     &__image {
       display: flex;
       height: 100%;
@@ -45,9 +50,10 @@
 
       &-text {
         text-align: left;
+        font-size: 2rem;
 
         @include respond(tab-port) {
-          font-size: 1.5rem;
+          font-size: 1.6rem;
           text-align: center;
         }
         @include respond(phone) {

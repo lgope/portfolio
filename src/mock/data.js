@@ -2,7 +2,7 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: 'Lakshman | Software Engineer', // e.g: 'Name | Developer'
+  title: 'Lakshman | Full Stack Developer', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -11,17 +11,17 @@ export const headData = {
 export const heroData = {
   title: `Hello 👋,`,
   name: `Lakshman`,
-  subtitle: 'I build websites and apps.',
-  cta: 'Know more',
+  subtitle: '',
+  cta: 'About me',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `I'm a professional and passionate Software Developer focused on efficiency and constant learning.`,
-  paragraphTwo: `My current stack of languages/technologies is:
-  HTML5 - CSS3 - JAVASCRIPT - SASS - WEBPACK - REACTJS - STYLED COMPONENTS - CSS MODULES - FIREBASE - NODEJS - EXPRESSJS - MONGODB - SQL - POSTGRESQL.`,
-  paragraphThree: `I would love to set up an introduction call to discuss how I could help your business and make your goals happen.`,
+  paragraphOne: `I'm a professional and passionate Full Stack Developer focused on efficiency and constant learning. Courteous and enthusiastic, I am interested in Web Applications and everything in its orbit. I fascinated by web programming, e.g., developing apps and building websites. I am gaining knowledge and ideas working in this area. I am keen to gain more experience in the field. `,
+  paragraphTwo: `For this reason, I'm looking for a company willing to offer me a placement among its developers. In return, I would offer my full commitment, and be a pleasant and friendly addition to a team. I am, therefore currently looking for a job or an internship as a web developer.`,
+  paragraphThree: `My current stack of languages/technologies is:
+  HTML5 - CSS3 - JAVASCRIPT - SASS - WEBPACK - REACTJS - STYLED COMPONENTS - CSS MODULES - NODEJS - EXPRESSJS - MONGODB - SQL - FIREBASE -  POSTGRESQL.`,
   resume: `https://docs.google.com/document/d/1pKtMEvnzgCAJWzb8j-qsQF7Ihxi8DJt3ikreacT0WXY/edit?usp=sharing`, // if no resume, the button will not show up
 };
 

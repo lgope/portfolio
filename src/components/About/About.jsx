@@ -39,7 +39,7 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">{paragraphOne}</p>
                 <p className="about-wrapper__info-text">{paragraphTwo}</p>
-                <p className="about-wrapper__info-text">{paragraphThree}</p>
+                <p className="about-wrapper__info-text stack">{paragraphThree}</p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
