@@ -5,21 +5,21 @@ const GithubButton = () => (
   <>
     <GitHubButton
       className="github-button"
-      href="https://github.com/lgope/lgope.github.io/fork"
+      href="https://github.com/lgope/portfolio/fork"
       data-icon="octicon-repo-forked"
       data-size="large"
       data-show-count="true"
-      aria-label="Fork lgope/lgope.github.io on GitHub"
+      aria-label="Fork lgope/portfolio on GitHub"
     >
       Fork
     </GitHubButton>
     <GitHubButton
       className="github-button"
-      href="https://github.com/lgope/lgope.github.io"
+      href="https://github.com/lgope/portfolio"
       data-icon="octicon-star"
       data-size="large"
       data-show-count="true"
-      aria-label="Star lgope/lgope.github.io on GitHub"
+      aria-label="Star lgope/portfolio on GitHub"
     >
       Star
     </GitHubButton>

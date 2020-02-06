@@ -25,6 +25,14 @@
     padding: 0rem $default-font-size;
   }
 
+  .sub-title {
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 7rem;
+    font-size: 2.2rem;
+    transition: color 0.2s ease-out;
+  }
+
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;

@@ -4,6 +4,33 @@
   margin-top: -10rem;
   padding-top: 15rem;
 
+  .customSapn {
+    position: relative;
+    font-style: italic;
+    color: var(--white);
+    font-size: medium;
+    font-weight: 600;
+    display: inline-block;
+    word-break: break-word;
+    white-space: normal;
+
+    &:after {
+      content: '';
+      z-index: -1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      transform: rotate(-2deg);
+      background: linear-gradient(
+        135deg,
+        $primary-color 0%,
+        $secondary-color 100%
+      ); // #7cdeac; // var(--primary);
+    }
+  }
+
   @include respond(tab-land) {
     margin-top: 0;
     padding-top: 5rem;
