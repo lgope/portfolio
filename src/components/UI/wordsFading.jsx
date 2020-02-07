@@ -6,6 +6,7 @@ const WORDS = [
   { id: 0, text: 'self-taught' },
   { id: 1, text: 'committed' },
   { id: 2, text: 'passionate' },
+  { id: 3, text: 'fast-learner' },
 ];
 
 const Wrapper = styled.div`

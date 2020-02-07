@@ -3,8 +3,10 @@ import uuidv1 from 'uuid/v1';
 // HEAD DATA
 export const headData = {
   title: 'Lakshman | Full Stack Developer', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  lang: 'en', // e.g: en, es, fr, jp
+  description: `I'm lakshman gope. This is my portfolio. Develop using react, gatsby, sass, styled-components`, // e.g: Welcome to my website
+  keywordContent: `lakshmangope portfolio, lakshmangope gatsby portfolio`,
+  authorName: `Lakshman Gope`,
 };
 
 // HERO DATA
@@ -19,7 +21,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: `I'm a professional and passionate Full Stack Developer focused on efficiency and constant learning. Courteous and enthusiastic, I am interested in Web Applications and everything in its orbit. I fascinated by web programming, e.g., developing apps and building websites. I am gaining knowledge and ideas working in this area. I am keen to gain more experience in the field. `,
-  paragraphTwo: `For this reason, I'm looking for a company willing to offer me a placement among its developers. In return, I would offer my full commitment, and be a pleasant and friendly addition to a team. I am, therefore currently looking for a job or an internship as a web developer.`,
+  paragraphTwo: `For this reason, I'm looking for a company willing to offer me a placement among its developers. In return, I would offer my full commitment, and be a pleasant and friendly addition to a team. I am, therefore currently looking for a job or an internship as a web developer. I always want to learn more, do more, and be more. I’m also a firm believer that we should never settle. I’m hard working, super curious, passionate, committed, and also a fast learner!`,
   paragraphThree: `My current stack of languages/technologies is:
   HTML5 - CSS3 - JAVASCRIPT - SASS - WEBPACK - REACTJS - STYLED COMPONENTS - CSS MODULES - NODEJS - EXPRESSJS - MONGODB - SQL - FIREBASE -  POSTGRESQL.`,
   resume: `https://docs.google.com/document/d/1pKtMEvnzgCAJWzb8j-qsQF7Ihxi8DJt3ikreacT0WXY/edit?usp=sharing`, // if no resume, the button will not show up
