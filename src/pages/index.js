@@ -18,7 +18,7 @@ export default () => {
           name="description"
           content={
             description ||
-            `I'm lakshman gope. This is my portfolio. Develop using react, gatsby, sass, styled-components`
+            `I'm lakshman gope. This is my portfolio. Developed using react, gatsby, sass, styled-components`
           }
         />
         <meta name="keywords" content={keywordContent} />
