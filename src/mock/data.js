@@ -71,12 +71,21 @@ export const moreProjectsData = [
   },
   {
     id: uuidv1(),
-    img: 'url-shortener.jpg',
+    img: 'url-shortener.png',
     title: 'URL Shortener',
     info: `A simple URL shortener. Which is generate a unique id for each URL after clicking in the shrink button. Using the id program find the URL in the database and redirect the URL page after click in the short URL id.`,
     info2: `ejs, bootstrap, Nodejs, Expressjs, mongodb`,
     url: `https://lakshman-url-shortener.herokuapp.com/`,
     repo: 'https://github.com/lgope/url-shortener', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'realTimeFaceDetection.png',
+    title: 'Real Time Face Detection',
+    info: `Real Time Face Detection With Face Expression. 🙂`,
+    info2: `html, js dom, face-api.js`,
+    url: `https://lgope-real-time-face-detection.netlify.com/`,
+    repo: 'https://github.com/lgope/real-time-face-detection', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
