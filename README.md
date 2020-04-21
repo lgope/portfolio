@@ -23,4 +23,4 @@ A minimal Gatsby portfolio 🙂 [![Netlify Status](https://api.netlify.com/api/v
 
 ## Deployment 📦
 
-Feel free to visit 👉 https://lakshmandev.netlify.com/
+Feel free to visit 👉 https://lakshmandev.netlify.app/

@@ -17,8 +17,19 @@ export default function HTML({
     <html {...htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
+        {/* meta for preview website */}
+        <meta
+          property="og:image"
+          content="https://user-images.githubusercontent.com/58518192/79878616-70cbc600-840f-11ea-88d5-708322e1805a.png"
+        />
+
+        {/* description */}
         <meta name="description" content="Portfolio website for myself as developer." />
+
+        {/* keywords */}
         <meta name="keywords" content="lakshman portfolio, gatsby portfolio, simple portfolio" />
+
+        {/* author */}
         <meta name="author" content="Lakshman Gope" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />

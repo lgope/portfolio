@@ -71,6 +71,15 @@ export const projectsData = [
 export const moreProjectsData = [
   {
     id: uuidv1(),
+    img: 'Project-Fair.png',
+    title: 'Project Fair',
+    info: `This is a simple web app. Where students can submit their project as a proposal or like so. And after submitted their project/proposal management team can see individual projects and they can accept or reject student's projects. After accepts or reject students can see the approved result.`,
+    info2: `ejs, bootstrap, nodejs, expressjs, mongodb atlas`,
+    url: `https://project-fair.herokuapp.com/`,
+    repo: 'https://github.com/lgope/project-fair', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'cwh.jpg',
     title: 'Check Weather',
     info: `This is a rudimentary node app to check current weather conditions on a specified location. My motivation for making this app was to have a clean way to get my current city weather information. ☁☁`,
