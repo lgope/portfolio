@@ -40,6 +40,15 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
+    img: 'covid-19.png',
+    title: 'COVID-19',
+    info: 'A simple web app for tracking coronavirus (Covid-19)',
+    info2: `Reactjs, css, mathdro API`,
+    url: 'https://covid19-ometer.netlify.com/',
+    repo: 'https://github.com/lgope/covid-19', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'fashion-clothing.png',
     title: 'Fashion Clothing',
     info: `Full Stack e-commerce website where peoples can purchase their choosable clothes.`,
