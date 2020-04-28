@@ -24,7 +24,7 @@ export const aboutData = {
   paragraphTwo: `For this reason, I'm looking for a company willing to offer me a placement among its developers. In return, I would offer my full commitment, and be a pleasant and friendly addition to a team. I am, therefore currently looking for a job or an internship as a web developer. I always want to learn more, do more, and be more. I’m also a firm believer that we should never settle. I’m hard working, super curious, passionate, committed, and also a fast learner!`,
   paragraphThree: `My current stack of languages/technologies is:
   HTML5 - CSS3 - JAVASCRIPT - SASS - WEBPACK - REACTJS - STYLED COMPONENTS - CSS MODULES - NODEJS - EXPRESSJS - MONGODB - SQL - FIREBASE -  POSTGRESQL.`,
-  resume: `https://docs.google.com/document/d/1pKtMEvnzgCAJWzb8j-qsQF7Ihxi8DJt3ikreacT0WXY/edit?usp=sharing`, // if no resume, the button will not show up
+  resume: `https://docs.google.com/document/d/1nMUVA808ZHaU5fCaNbMyDXIs-t6UDr4Tapo1nEna8T4/edit?usp=sharing`, // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -43,8 +43,8 @@ export const projectsData = [
     img: 'covid-19.png',
     title: 'COVID-19',
     info: 'A simple web app for tracking coronavirus (Covid-19)',
-    info2: `Reactjs, css, mathdro API`,
-    url: 'https://covid19-ometer.netlify.com/',
+    info2: `Reactjs, css, APIs`,
+    url: 'https://covid19-ometer.netlify.app/',
     repo: 'https://github.com/lgope/covid-19', // if no repo, the button will not show up
   },
   {
@@ -60,7 +60,8 @@ export const projectsData = [
     id: uuidv1(),
     img: 'faceDetectionBrain.jpg',
     title: 'Face Detection Brain',
-    info: `Face detection brain is a web application that detects faces from images using machine learning with provisions for registering, signing in, viewing the leaderboard and editing profiles. 🙂`,
+    info: `Face detection brain is a web application that detects faces from images using machine learning 
+    with provisions for registering, signing in, viewing the leaderboard and editing profiles. 🙂`,
     info2: `React.js, Tachyons, Expressjs, PostgreSQL, Clafifai API`,
     url: 'http://smart-face-detect-brain.herokuapp.com/',
     repo: 'https://github.com/lgope/face-detection-brain', // if no repo, the button will not show up
