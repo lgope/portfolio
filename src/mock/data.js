@@ -136,6 +136,15 @@ export const moreProjectsData = [
   },
   {
     id: uuidv1(),
+    img: 'passg.png',
+    title: 'Password Generator',
+    info: `This app generate high secure password.`,
+    info2: `html5, css3, JS`,
+    url: 'https://lgope-password-generator.netlify.app/',
+    repo: 'https://github.com/lgope/JavaScript/tree/master/Password-Generator', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'budgetyhome.jpg',
     title: 'Budget App',
     info: `Budgety the single page web application where users can keep track of their income and expenses. 💲`,
