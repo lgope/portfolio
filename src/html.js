@@ -20,7 +20,7 @@ export default function HTML({
         {/* meta for preview website */}
         <meta
           property="og:image"
-          content="https://user-images.githubusercontent.com/58518192/79878616-70cbc600-840f-11ea-88d5-708322e1805a.png"
+          content="https://github.com/lgope/portfolio/blob/master/src/images/profile.jpg?raw=true"
         />
 
         {/* description */}
