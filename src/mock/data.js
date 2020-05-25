@@ -72,6 +72,15 @@ export const projectsData = [
 export const moreProjectsData = [
   {
     id: uuidv1(),
+    img: 'go-profile.png',
+    title: 'Go Profile',
+    info: `A simple chrome extension Go Profile a chrome extension app. This app helps to save any profile link or website link for an easy move.`,
+    info2: `html, css, bootstrap, jquery`,
+    url: `https://chrome.google.com/webstore/detail/go-profile/fdmejlnlgblffjdjokhamfplblbfjloh`,
+    repo: 'https://github.com/lgope/go-profile-chrome-extention', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'Project-Fair.png',
     title: 'Project Fair',
     info: `This is a simple web app. Where students can submit their project as a proposal or like so. And after submitted their project/proposal management team can see individual projects and they can accept or reject student's projects. After accepts or reject students can see the approved result.`,
@@ -90,12 +99,12 @@ export const moreProjectsData = [
   },
   {
     id: uuidv1(),
-    img: 'url-shortener.png',
-    title: 'URL Shortener',
-    info: `A simple URL shortener. Which is generate a unique id for each URL after clicking in the shrink button. Using the id program find the URL in the database and redirect the URL page after click in the short URL id.`,
-    info2: `ejs, bootstrap, Nodejs, Expressjs, mongodb`,
-    url: `https://lakshman-url-shortener.herokuapp.com/`,
-    repo: 'https://github.com/lgope/url-shortener', // if no repo, the button will not show up
+    img: 'passg.png',
+    title: 'Password Generator',
+    info: `This app generate high secure password.`,
+    info2: `html5, css3, JS`,
+    url: 'https://lgope-password-generator.netlify.app/',
+    repo: 'https://github.com/lgope/JavaScript/tree/master/Password-Generator', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -105,6 +114,15 @@ export const moreProjectsData = [
     info2: `html, js dom, face-api.js`,
     url: `https://lgope-real-time-face-detection.netlify.com/`,
     repo: 'https://github.com/lgope/real-time-face-detection', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'url-shortener.png',
+    title: 'URL Shortener',
+    info: `A simple URL shortener. Which is generate a unique id for each URL after clicking in the shrink button. Using the id program find the URL in the database and redirect the URL page after click in the short URL id.`,
+    info2: `ejs, bootstrap, Nodejs, Expressjs, mongodb`,
+    url: `https://lakshman-url-shortener.herokuapp.com/`,
+    repo: 'https://github.com/lgope/url-shortener', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -133,15 +151,6 @@ export const moreProjectsData = [
     info2: `html5, css3, Nodejs, Expressjs, File System`,
     url: 'http://lakshman-farm.herokuapp.com/',
     repo: 'https://github.com/lgope/node-farm', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'passg.png',
-    title: 'Password Generator',
-    info: `This app generate high secure password.`,
-    info2: `html5, css3, JS`,
-    url: 'https://lgope-password-generator.netlify.app/',
-    repo: 'https://github.com/lgope/JavaScript/tree/master/Password-Generator', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
