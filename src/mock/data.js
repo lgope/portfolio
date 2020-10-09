@@ -58,6 +58,19 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
+    img: 'googleClone.png',
+    title: 'Google Clone',
+    info: `This is a google clone.`,
+    info2: `Css, React.js`,
+    url: 'https://clone-b63c7.firebaseapp.com/',
+    repo: 'https://github.com/lgope/Reactjs-Basic/tree/master/google-clone', // if no repo, the button will not show up
+  },
+];
+
+// MORE PROJECTS DATA
+export const moreProjectsData = [
+  {
+    id: uuidv1(),
     img: 'faceDetectionBrain.jpg',
     title: 'Face Detection Brain',
     info: `Face detection brain is a web application that detects faces from images using machine learning 
@@ -66,10 +79,6 @@ export const projectsData = [
     url: 'http://smart-face-detect-brain.herokuapp.com/',
     repo: 'https://github.com/lgope/face-detection-brain', // if no repo, the button will not show up
   },
-];
-
-// MORE PROJECTS DATA
-export const moreProjectsData = [
   {
     id: uuidv1(),
     img: 'go-profile.png',
